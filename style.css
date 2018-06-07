@@ -17,6 +17,14 @@ body {
   height: 400px;
   display: flex;
   flex-wrap: wrap; }
+  .game-field .finish {
+    background-color: #000 !important;
+    text-decoration: line-through;
+    color: #fff; }
+  .game-field .x {
+    background-color: #f6f6f6; }
+  .game-field .o {
+    background-color: #ccc; }
   .game-field .cell {
     box-sizing: border-box;
     flex-grow: 1;

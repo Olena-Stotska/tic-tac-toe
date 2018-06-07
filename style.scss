@@ -21,6 +21,20 @@ body {
   display: flex;
   flex-wrap: wrap;
 
+  .finish {
+    background-color: #000 !important;
+    text-decoration: line-through;
+    color: #fff;
+  }
+
+  .x {
+    background-color: #f6f6f6;
+  }
+
+  .o {
+    background-color: #ccc;
+  }
+
   .cell {
     box-sizing: border-box;
     flex-grow: 1;
@@ -97,4 +111,3 @@ body {
     content: "\039f";
   }
 }
-
